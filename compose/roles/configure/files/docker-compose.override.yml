@@ -3,18 +3,18 @@ version: "3.8"
 
 
 services:
-  mongo:
-    ports:
-    - 27017:27017
-  nginx:
-    ports:
-      - 80:80
-      - 443:443
-      - 1200:1200
-  nodejs:
-    ports:
-      - 1234:1234
-      - 5000:5000
+  # mongo:
+  #   ports:
+  #   - 27017:27017
+  # nginx:
+  #   ports:
+  #     - 80:80
+  #     - 443:443
+  #     - 1200:1200
+  # nodejs:
+  #   ports:
+  #     - 1234:1234
+  #     - 5000:5000
   golang:
     ports:
       - 1200:1200
